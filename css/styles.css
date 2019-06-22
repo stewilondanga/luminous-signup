@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|PT+Sans');
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,7 +22,6 @@
   height: 1.5em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|PT+Sans');
 * {
   box-sizing: border-box;
 }
@@ -35,45 +35,55 @@ h1{
 /*   font-family: 'Nanum Gothic', sans-serif */
 }
 
-.center, .signup__field, .signup__button{
-   display: flex;
+.center, .signup__field, .signup__button {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-body{
-  background:linear-gradient(-45deg, #ff9966, #ff5e62, #ff6680, #6680ff);
+body {
+  background: linear-gradient(-45deg, #ff9966, #ff5e62, #ff6680, #6680ff);
   background-size:
     400% 400%;
-animation-name: background-animation;
-  animation-duration:6s;
+  animation-name: background-animation;
+  animation-duration: 6s;
   animation-timing-function:
-  ease;
-  animation-iteration-count:infinite;
+    ease;
+  animation-iteration-count: infinite;
   padding: 10px;
   font-family: 'Nanum Gothic', sans-serif;
 }
 
-@keyframes background-animation {0%
-  {background-position:0% 50%}
-    50% {background-position:100% 50%}
-    100% {background-position:0% 50%}
+@keyframes background-animation {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
 }
 
-.header{
+.header {
   padding: 5px;
   text-align: center;
 }
-input[type=email]{
+
+input[type=email] {
   width: 273px;
   margin: 5px;
 }
-input[type=password]{
+
+input[type=password] {
   width: 307px;
   margin: 5px;
 }
 
-fieldset{
+fieldset {
   margin: 30px;
 }
 
@@ -82,16 +92,14 @@ input[type=text] {
   margin: 5px;
 }
 
-input[type=email]{
+input[type=email] {}
 
-}
-
-.input-field{
+.input-field {
   border-radius: 3px;
- width:150px;
+  width: 150px;
 }
 
-.label{
+.label {
   margin: 10px;
 }
 
