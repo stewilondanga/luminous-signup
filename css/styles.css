@@ -87,12 +87,12 @@ input[type=text] {
 
 input[type=email] {}
 
-/*.input-field {
+.input-field {
   border-radius: 3px;
   width: 150px;
 }
 
-.label {
+/*.label {
   margin: 10px;
 }
 
