@@ -92,11 +92,11 @@ input[type=email] {}
   width: 150px;
 }
 
-/*.label {
+.label {
   margin: 10px;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
