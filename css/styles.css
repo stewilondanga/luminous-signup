@@ -61,13 +61,12 @@ h1 {
   }
 }
 
-/*
 .header {
   padding: 5px;
   text-align: center;
 }
 
-input[type=email] {
+/*input[type=email] {
   width: 273px;
   margin: 5px;
 }
