@@ -76,11 +76,11 @@ input[type=password] {
   margin: 5px;
 }
 
-/*fieldset {
+fieldset {
   margin: 30px;
 }
 
-input[type=text] {
+/*input[type=text] {
   width: 300px;
   margin: 5px;
 }
