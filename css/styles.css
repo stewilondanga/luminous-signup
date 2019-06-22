@@ -41,14 +41,13 @@ h1 {
   /*   font-family: 'Nanum Gothic', sans-serif */
 }
 
-/*
 .center, .signup__field, .signup__button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
+/*
 @keyframes background-animation {
   0% {
     background-position: 0% 50%
